@@ -12,7 +12,7 @@ end
 end
 
 def take_a_number(ralph_deli, customer)
-  # ralph_deli << customer
+   ralph_deli << customer
   puts "Welcome, #{customer}. You are number #{ralph_deli.length} in line."
 end
 
