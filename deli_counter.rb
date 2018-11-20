@@ -11,16 +11,16 @@ def line(ralph_deli)
 end
 end
 
-def take_a_number(deli, name)
-  deli << name
-  puts "Welcome, #{name}. You are number #{deli.length} in line."
+def take_a_number(ralph_deli, customer)
+  ralph_deli << customer
+  puts "Welcome, #{customer}. You are number #{ralph_deli.length} in line."
 end
 
-def now_serving(deli)
-  if deli.empty?
+def now_serving(ralph_deli)
+  if ralph_deli.empty?
     puts "There is nobody waiting to be served!"
   else
-    puts "Currently serving #{deli.first}."
-    deli.shift
+    puts "Currently serving #{ralph_deli.first}."
+    ralph_deli.shift
   end
 end
