@@ -4,6 +4,6 @@ def line(ralph_deli)
     puts "The line is currently empty."
   else 
     deli_line = "The line is currently:"
-    ralph_deli.each
+    ralph_deli.each.with_index
   end
 end
